@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 0px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
+</head>
+<body>
+    
+<center><h1 style="background-color: darkgoldenrod;">casual shoes</h1>
+<a href="./home.html"><h2>HOME</h2></a></center>
+<!-- <div>
+    <div style="background-color: lightblue; width: 100%;">
+        <img src="casual.1" alt="shoe" width="300px">
+        <p>Puma Men's Club 5v5 Black Casual Sneakers
+        </p>
+        <span>₹2449
+            MRP:
+            ₹6999 <br>
+            65% Off
+            Inclusive of all taxes</span>
+    
+        <img src="casual2.jpg" alt="shoe" width="300px">
+        <p>Smashic Unisex Sneakers</p>
+        <span>₹2,469
+            ₹4,499
+            Prices include GST
+            Color
+            PUMA Black-Matte Silver</span>
+    </div>
+</div> -->
+<div class="row">
+    <div class="column">
+      <img src="./casual.1" alt="Snow" style="width: 201px;">
+      <p>Puma Men's Club 5v5 Black Casual Sneakers
+
+        <b>₹2449</b> <del>MRP: ₹6999</del><br><br>
+    <a href="">buy now</a><br></p>
+    </div>
+    <div class="column">
+      <img src="casual2.jpg" alt="Forest" style="width: 250px;">
+      <p>
+        65% Off Inclusive of all taxes shoe
+Smashic Unisex Sneakers
+
+₹2,469 <del>₹4,499</del> Prices include GST Color PUMA Black-Matte Silver
+<span><b>₹2,469</b> <del>₹4,499</del></span><br><br>
+<a href="">buy now</a><br>
+      </p>
+    </div>
+    <div class="column">
+      <img src="./shoe3.jpg" alt="Mountains" style="width: 300px;">
+      <p>Men Puma BMW M Motorsport Drift Cat 8 Unisex</p>
+      <span> <b>PRICE ₹3,599</b> <del> ₹4,399</del></span><br><br>
+      <a href="">buy now</a>
+    </div>
+  </div>
+
+</body>
+</html>
